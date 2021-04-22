@@ -7,5 +7,5 @@ app.use(express.static(`${baseDir}`))
 app.get('/app', (req, res) => res.sendfile('index.html' , { root : baseDir } ))
 
 
-const port = 21009; // Altere a porta
+const port = 21009; // Change port
 app.listen(port)
